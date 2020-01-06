@@ -1,0 +1,927 @@
+2019/12/30 16:29:28 [notice] 22580#21152: using the "select" event method
+2019/12/30 16:29:28 [notice] 22580#21152: nginx/1.13.12
+2019/12/30 16:29:28 [info] 22580#21152: OS: 260200 build:9200, "", suite:100, type:1
+2019/12/30 16:29:28 [notice] 22580#21152: start worker processes
+2019/12/30 16:29:28 [notice] 22580#21152: start worker process 12472
+2019/12/30 16:29:28 [notice] 12472#14664: nginx/1.13.12
+2019/12/30 16:29:28 [info] 12472#14664: OS: 260200 build:9200, "", suite:100, type:1
+2019/12/30 16:29:28 [notice] 12472#14664: create thread 3860
+2019/12/30 16:29:28 [notice] 12472#14664: create thread 15292
+2019/12/30 16:29:28 [notice] 12472#14664: create thread 3120
+2020/01/03 18:38:46 [notice] 8168#1552: using the "select" event method
+2020/01/03 18:38:46 [notice] 8168#1552: nginx/1.13.12
+2020/01/03 18:38:46 [info] 8168#1552: OS: 260200 build:9200, "", suite:100, type:1
+2020/01/03 18:38:46 [notice] 8168#1552: start worker processes
+2020/01/03 18:38:46 [notice] 8168#1552: start worker process 22104
+2020/01/03 18:38:46 [notice] 22104#18096: nginx/1.13.12
+2020/01/03 18:38:46 [info] 22104#18096: OS: 260200 build:9200, "", suite:100, type:1
+2020/01/03 18:38:46 [notice] 22104#18096: create thread 3748
+2020/01/03 18:38:46 [notice] 22104#18096: create thread 13388
+2020/01/03 18:38:46 [notice] 22104#18096: create thread 22940
+2020/01/06 14:05:36 [notice] 17680#3404: using the "select" event method
+2020/01/06 14:05:36 [notice] 17680#3404: nginx/1.13.12
+2020/01/06 14:05:36 [info] 17680#3404: OS: 260200 build:9200, "", suite:100, type:1
+2020/01/06 14:05:36 [notice] 17680#3404: start worker processes
+2020/01/06 14:05:36 [notice] 17680#3404: start worker process 27944
+2020/01/06 14:05:37 [notice] 27944#13604: nginx/1.13.12
+2020/01/06 14:05:37 [info] 27944#13604: OS: 260200 build:9200, "", suite:100, type:1
+2020/01/06 14:05:37 [notice] 27944#13604: create thread 27172
+2020/01/06 14:05:37 [notice] 27944#13604: create thread 23288
+2020/01/06 14:05:37 [notice] 27944#13604: create thread 22708
+2020/01/06 14:10:55 [info] 27944#27172: *1 client connected '127.0.0.1'
+2020/01/06 14:10:55 [info] 27944#27172: *1 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 14:10:55 [info] 27944#27172: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 14:10:55 [info] 27944#27172: *1 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 14:10:58 [info] 27944#27172: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 14:10:58 [info] 27944#27172: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 14:11:03 [info] 27944#27172: *2 client connected '127.0.0.1'
+2020/01/06 14:11:03 [info] 27944#27172: *2 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 14:11:03 [info] 27944#27172: *2 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 14:11:03 [info] 27944#27172: *2 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 14:11:06 [info] 27944#27172: *2 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 14:11:06 [info] 27944#27172: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:06:05 [info] 27944#27172: *3 client connected '127.0.0.1'
+2020/01/06 15:06:05 [info] 27944#27172: *3 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:06:05 [info] 27944#27172: *3 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:06:05 [info] 27944#27172: *3 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:06:07 [info] 27944#27172: *3 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:06:07 [info] 27944#27172: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:06:14 [info] 27944#27172: *4 client connected '127.0.0.1'
+2020/01/06 15:06:14 [info] 27944#27172: *4 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:06:14 [info] 27944#27172: *4 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:06:14 [info] 27944#27172: *4 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:06:17 [info] 27944#27172: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:06:17 [info] 27944#27172: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:06:24 [info] 27944#27172: *5 client connected '127.0.0.1'
+2020/01/06 15:06:24 [info] 27944#27172: *5 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:06:24 [info] 27944#27172: *5 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:06:24 [info] 27944#27172: *5 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:06:27 [info] 27944#27172: *5 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:06:27 [info] 27944#27172: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:20 [info] 27944#27172: *6 client connected '127.0.0.1'
+2020/01/06 15:08:20 [info] 27944#27172: *6 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:20 [info] 27944#27172: *6 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:20 [info] 27944#27172: *6 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:22 [info] 27944#27172: *6 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:22 [info] 27944#27172: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:23 [info] 27944#27172: *7 client connected '127.0.0.1'
+2020/01/06 15:08:23 [info] 27944#27172: *7 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:23 [info] 27944#27172: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:23 [info] 27944#27172: *7 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:27 [info] 27944#27172: *7 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:27 [info] 27944#27172: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:29 [info] 27944#27172: *8 client connected '127.0.0.1'
+2020/01/06 15:08:29 [info] 27944#27172: *8 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:29 [info] 27944#27172: *8 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:29 [info] 27944#27172: *8 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:30 [info] 27944#27172: *8 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:30 [info] 27944#27172: *8 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:54 [info] 27944#27172: *9 client connected '127.0.0.1'
+2020/01/06 15:08:54 [info] 27944#27172: *9 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:54 [info] 27944#27172: *9 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:54 [info] 27944#27172: *9 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:57 [info] 27944#27172: *9 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:57 [info] 27944#27172: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:57 [info] 27944#27172: *10 client connected '127.0.0.1'
+2020/01/06 15:08:57 [info] 27944#27172: *10 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:57 [info] 27944#27172: *10 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:08:57 [info] 27944#27172: *10 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:00 [info] 27944#27172: *10 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:00 [info] 27944#27172: *10 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:00 [info] 27944#27172: *11 client connected '127.0.0.1'
+2020/01/06 15:09:00 [info] 27944#27172: *11 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:00 [info] 27944#27172: *11 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:00 [info] 27944#27172: *11 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:03 [info] 27944#27172: *11 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:03 [info] 27944#27172: *11 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:03 [info] 27944#27172: *12 client connected '127.0.0.1'
+2020/01/06 15:09:03 [info] 27944#27172: *12 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:03 [info] 27944#27172: *12 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:03 [info] 27944#27172: *12 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:06 [info] 27944#27172: *12 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:06 [info] 27944#27172: *12 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:06 [info] 27944#27172: *13 client connected '127.0.0.1'
+2020/01/06 15:09:06 [info] 27944#27172: *13 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:06 [info] 27944#27172: *13 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:06 [info] 27944#27172: *13 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:09 [info] 27944#27172: *13 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:09 [info] 27944#27172: *13 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:09 [info] 27944#27172: *14 client connected '127.0.0.1'
+2020/01/06 15:09:09 [info] 27944#27172: *14 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:09 [info] 27944#27172: *14 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:09 [info] 27944#27172: *14 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:12 [info] 27944#27172: *14 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:12 [info] 27944#27172: *14 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:12 [info] 27944#27172: *15 client connected '127.0.0.1'
+2020/01/06 15:09:12 [info] 27944#27172: *15 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:12 [info] 27944#27172: *15 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:12 [info] 27944#27172: *15 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:15 [info] 27944#27172: *15 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:15 [info] 27944#27172: *15 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:15 [info] 27944#27172: *16 client connected '127.0.0.1'
+2020/01/06 15:09:15 [info] 27944#27172: *16 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:15 [info] 27944#27172: *16 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:15 [info] 27944#27172: *16 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:18 [info] 27944#27172: *16 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:18 [info] 27944#27172: *16 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:18 [info] 27944#27172: *17 client connected '127.0.0.1'
+2020/01/06 15:09:18 [info] 27944#27172: *17 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:18 [info] 27944#27172: *17 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:18 [info] 27944#27172: *17 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:21 [info] 27944#27172: *17 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:21 [info] 27944#27172: *17 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:21 [info] 27944#27172: *18 client connected '127.0.0.1'
+2020/01/06 15:09:21 [info] 27944#27172: *18 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:21 [info] 27944#27172: *18 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:21 [info] 27944#27172: *18 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:24 [info] 27944#27172: *18 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:09:24 [info] 27944#27172: *18 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:10:29 [info] 27944#27172: *19 client connected '127.0.0.1'
+2020/01/06 15:10:29 [info] 27944#27172: *19 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:10:29 [info] 27944#27172: *19 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:10:29 [info] 27944#27172: *19 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:12:17 [info] 27944#27172: *19 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:12:17 [info] 27944#27172: *19 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:12:17 [info] 27944#27172: *20 client connected '192.168.0.140'
+2020/01/06 15:12:17 [info] 27944#27172: *20 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.0.140:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:12:17 [info] 27944#27172: *20 createStream, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:12:17 [info] 27944#27172: *20 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:14:35 [info] 27944#27172: *20 disconnect, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:14:35 [info] 27944#27172: *20 deleteStream, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:14:40 [info] 27944#27172: *21 client connected '127.0.0.1'
+2020/01/06 15:14:40 [info] 27944#27172: *21 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:14:40 [info] 27944#27172: *21 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:14:40 [info] 27944#27172: *21 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:16:00 [info] 27944#27172: *22 client connected '192.168.0.140'
+2020/01/06 15:16:00 [info] 27944#27172: *22 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.0.140:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:16:00 [info] 27944#27172: *22 createStream, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:16:00 [info] 27944#27172: *22 play: name='ivroom1_2_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:16:03 [info] 27944#27172: *22 disconnect, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:16:03 [info] 27944#27172: *22 deleteStream, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:21:35 [notice] 15468#20392: using the "select" event method
+2020/01/06 15:21:35 [notice] 15468#20392: nginx/1.13.12
+2020/01/06 15:21:35 [info] 15468#20392: OS: 260200 build:9200, "", suite:100, type:1
+2020/01/06 15:21:35 [notice] 15468#20392: start worker processes
+2020/01/06 15:21:35 [notice] 15468#20392: start worker process 4068
+2020/01/06 15:21:35 [notice] 4068#9156: nginx/1.13.12
+2020/01/06 15:21:35 [info] 4068#9156: OS: 260200 build:9200, "", suite:100, type:1
+2020/01/06 15:21:35 [notice] 4068#9156: create thread 18556
+2020/01/06 15:21:35 [notice] 4068#9156: create thread 1904
+2020/01/06 15:21:35 [notice] 4068#9156: create thread 23040
+2020/01/06 15:22:05 [info] 27944#27172: *23 client connected '192.168.0.140'
+2020/01/06 15:22:05 [info] 27944#27172: *23 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.0.140:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:22:05 [info] 27944#27172: *23 createStream, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:22:05 [info] 27944#27172: *23 play: name='ivroom1_2_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:22:06 [info] 27944#27172: *24 client connected '192.168.0.140'
+2020/01/06 15:22:06 [info] 27944#27172: *24 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://192.168.0.140:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:22:06 [info] 27944#27172: *24 createStream, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:22:06 [info] 27944#27172: *24 publish: name='ivroom1_2_0' args='' type=live silent=0, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:22:33 [info] 27944#27172: *23 disconnect, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:22:33 [info] 27944#27172: *23 deleteStream, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:22:33 [info] 27944#27172: *24 disconnect, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:22:33 [info] 27944#27172: *24 deleteStream, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:23:33 [info] 27944#27172: *25 client connected '192.168.0.140'
+2020/01/06 15:23:33 [info] 27944#27172: *25 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.0.140:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:23:33 [info] 27944#27172: *25 createStream, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:23:33 [info] 27944#27172: *25 play: name='ivroom1_2_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:23:33 [info] 27944#27172: *26 client connected '192.168.0.140'
+2020/01/06 15:23:33 [info] 27944#27172: *26 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://192.168.0.140:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:23:33 [info] 27944#27172: *26 createStream, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:23:33 [info] 27944#27172: *26 publish: name='ivroom1_2_0' args='' type=live silent=0, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:23:51 [info] 27944#27172: *25 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:23:51 [info] 27944#27172: *25 disconnect, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:23:51 [info] 27944#27172: *25 deleteStream, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:23:51 [info] 27944#27172: *26 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:23:51 [info] 27944#27172: *26 disconnect, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:23:51 [info] 27944#27172: *26 deleteStream, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 15:24:40 [info] 27944#27172: *21 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:24:40 [info] 27944#27172: *21 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:24:45 [info] 27944#27172: *27 client connected '127.0.0.1'
+2020/01/06 15:24:45 [info] 27944#27172: *27 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:24:45 [info] 27944#27172: *27 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:24:45 [info] 27944#27172: *27 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:28:15 [info] 27944#27172: *28 client connected '127.0.0.1'
+2020/01/06 15:28:15 [info] 27944#27172: *28 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:28:15 [info] 27944#27172: *28 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:28:15 [info] 27944#27172: *28 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:28:38 [info] 27944#27172: *27 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:28:38 [info] 27944#27172: *27 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:28:38 [info] 27944#27172: *27 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:28:42 [info] 27944#27172: *28 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:28:42 [info] 27944#27172: *28 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:28:42 [info] 27944#27172: *28 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:46:05 [info] 27944#27172: *29 client connected '127.0.0.1'
+2020/01/06 15:46:05 [info] 27944#27172: *29 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:46:05 [info] 27944#27172: *29 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:46:05 [info] 27944#27172: *29 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:46:05 [info] 27944#27172: *30 client connected '127.0.0.1'
+2020/01/06 15:46:05 [info] 27944#27172: *30 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:46:05 [info] 27944#27172: *30 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:46:05 [info] 27944#27172: *30 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:46:51 [info] 27944#27172: *29 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:46:51 [info] 27944#27172: *29 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:46:51 [info] 27944#27172: *29 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:46:51 [info] 27944#27172: *30 WSASend() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:46:51 [info] 27944#27172: *30 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:46:51 [info] 27944#27172: *30 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:49:16 [info] 27944#27172: *31 client connected '127.0.0.1'
+2020/01/06 15:49:16 [info] 27944#27172: *31 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:49:16 [info] 27944#27172: *31 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:49:16 [info] 27944#27172: *31 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:49:16 [info] 27944#27172: *32 client connected '127.0.0.1'
+2020/01/06 15:49:16 [info] 27944#27172: *32 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:49:16 [info] 27944#27172: *32 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:49:16 [info] 27944#27172: *32 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:49:34 [info] 27944#27172: *32 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:49:34 [info] 27944#27172: *32 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:49:34 [info] 27944#27172: *32 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:49:34 [info] 27944#27172: *31 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:49:34 [info] 27944#27172: *31 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:49:34 [info] 27944#27172: *31 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:50:40 [info] 27944#27172: *33 client connected '127.0.0.1'
+2020/01/06 15:50:40 [info] 27944#27172: *33 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:50:40 [info] 27944#27172: *33 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:50:40 [info] 27944#27172: *33 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:50:40 [info] 27944#27172: *34 client connected '127.0.0.1'
+2020/01/06 15:50:40 [info] 27944#27172: *34 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:50:40 [info] 27944#27172: *34 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:50:40 [info] 27944#27172: *34 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:51:48 [info] 27944#27172: *33 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:51:48 [info] 27944#27172: *33 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:51:48 [info] 27944#27172: *33 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:52:24 [info] 27944#27172: *34 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:52:24 [info] 27944#27172: *34 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:52:48 [info] 27944#27172: *35 client connected '127.0.0.1'
+2020/01/06 15:52:48 [info] 27944#27172: *35 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:52:48 [info] 27944#27172: *35 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:52:48 [info] 27944#27172: *35 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:52:48 [info] 27944#27172: *36 client connected '127.0.0.1'
+2020/01/06 15:52:48 [info] 27944#27172: *36 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:52:48 [info] 27944#27172: *36 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:52:48 [info] 27944#27172: *36 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:53:11 [info] 27944#27172: *35 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:53:11 [info] 27944#27172: *35 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:53:11 [info] 27944#27172: *35 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:54:12 [info] 27944#27172: *36 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:54:12 [info] 27944#27172: *36 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:54:12 [info] 27944#27172: *36 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:56:04 [info] 27944#27172: *37 client connected '127.0.0.1'
+2020/01/06 15:56:04 [info] 27944#27172: *37 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:56:04 [info] 27944#27172: *37 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:56:04 [info] 27944#27172: *37 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:56:04 [info] 27944#27172: *38 client connected '127.0.0.1'
+2020/01/06 15:56:04 [info] 27944#27172: *38 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:56:04 [info] 27944#27172: *38 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:56:04 [info] 27944#27172: *38 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:56:51 [info] 27944#27172: *38 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:56:51 [info] 27944#27172: *38 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:56:51 [info] 27944#27172: *38 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:56:51 [info] 27944#27172: *38 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:57:22 [info] 27944#27172: *37 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:57:22 [info] 27944#27172: *37 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:57:22 [info] 27944#27172: *37 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:58:09 [info] 27944#27172: *39 client connected '127.0.0.1'
+2020/01/06 15:58:09 [info] 27944#27172: *39 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:58:09 [info] 27944#27172: *39 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:58:09 [info] 27944#27172: *39 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:58:09 [info] 27944#27172: *40 client connected '127.0.0.1'
+2020/01/06 15:58:09 [info] 27944#27172: *40 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:58:09 [info] 27944#27172: *40 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:58:09 [info] 27944#27172: *40 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:58:43 [info] 27944#27172: *39 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:58:43 [info] 27944#27172: *39 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:58:43 [info] 27944#27172: *39 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:58:43 [info] 27944#27172: *40 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:58:43 [info] 27944#27172: *40 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:58:43 [info] 27944#27172: *40 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:59:52 [info] 27944#27172: *41 client connected '127.0.0.1'
+2020/01/06 15:59:52 [info] 27944#27172: *41 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:59:52 [info] 27944#27172: *41 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:59:52 [info] 27944#27172: *41 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:59:52 [info] 27944#27172: *42 client connected '127.0.0.1'
+2020/01/06 15:59:52 [info] 27944#27172: *42 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:59:52 [info] 27944#27172: *42 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 15:59:52 [info] 27944#27172: *42 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:00:53 [info] 27944#27172: *41 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:00:53 [info] 27944#27172: *41 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:00:53 [info] 27944#27172: *41 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:01:55 [info] 27944#27172: *42 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:01:55 [info] 27944#27172: *42 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:01:55 [info] 27944#27172: *42 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:06:07 [info] 27944#27172: *43 client connected '127.0.0.1'
+2020/01/06 16:06:07 [info] 27944#27172: *43 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:06:07 [info] 27944#27172: *43 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:06:07 [info] 27944#27172: *43 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:06:07 [info] 27944#27172: *44 client connected '127.0.0.1'
+2020/01/06 16:06:07 [info] 27944#27172: *44 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:06:07 [info] 27944#27172: *44 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:06:07 [info] 27944#27172: *44 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:06:14 [info] 27944#27172: *43 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:06:14 [info] 27944#27172: *43 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:06:14 [info] 27944#27172: *43 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:06:14 [info] 27944#27172: *44 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:06:14 [info] 27944#27172: *44 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:06:14 [info] 27944#27172: *44 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:06:14 [info] 27944#27172: *44 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:09:18 [info] 27944#27172: *45 client connected '127.0.0.1'
+2020/01/06 16:09:18 [info] 27944#27172: *45 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:09:18 [info] 27944#27172: *45 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:09:18 [info] 27944#27172: *45 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:09:18 [info] 27944#27172: *46 client connected '127.0.0.1'
+2020/01/06 16:09:18 [info] 27944#27172: *46 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:09:18 [info] 27944#27172: *46 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:09:18 [info] 27944#27172: *46 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:09:39 [info] 27944#27172: *45 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:09:39 [info] 27944#27172: *45 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:09:39 [info] 27944#27172: *45 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:09:39 [info] 27944#27172: *46 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:09:39 [info] 27944#27172: *46 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:09:39 [info] 27944#27172: *46 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:09:39 [info] 27944#27172: *46 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:40:07 [info] 27944#27172: *47 client connected '127.0.0.1'
+2020/01/06 16:40:07 [info] 27944#27172: *47 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:40:07 [info] 27944#27172: *47 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:40:07 [info] 27944#27172: *47 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:40:08 [info] 27944#27172: *48 client connected '127.0.0.1'
+2020/01/06 16:40:08 [info] 27944#27172: *48 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:40:08 [info] 27944#27172: *48 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:40:08 [info] 27944#27172: *48 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:40:16 [info] 27944#27172: *48 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:40:16 [info] 27944#27172: *48 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:40:16 [info] 27944#27172: *48 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:40:16 [info] 27944#27172: *47 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:40:16 [info] 27944#27172: *47 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:40:16 [info] 27944#27172: *47 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:40:16 [info] 27944#27172: *47 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:41:14 [info] 27944#27172: *49 client connected '127.0.0.1'
+2020/01/06 16:41:14 [info] 27944#27172: *49 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:41:14 [info] 27944#27172: *49 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:41:14 [info] 27944#27172: *49 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:41:14 [info] 27944#27172: *50 client connected '127.0.0.1'
+2020/01/06 16:41:14 [info] 27944#27172: *50 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:41:14 [info] 27944#27172: *50 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:41:14 [info] 27944#27172: *50 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:41:29 [info] 27944#27172: *49 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:41:29 [info] 27944#27172: *49 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:41:29 [info] 27944#27172: *49 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:41:29 [info] 27944#27172: *50 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:41:29 [info] 27944#27172: *50 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:41:29 [info] 27944#27172: *50 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:41:29 [info] 27944#27172: *50 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:43:42 [info] 27944#27172: *51 client connected '127.0.0.1'
+2020/01/06 16:43:42 [info] 27944#27172: *51 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:43:42 [info] 27944#27172: *51 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:43:42 [info] 27944#27172: *51 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:43:42 [info] 27944#27172: *52 client connected '127.0.0.1'
+2020/01/06 16:43:42 [info] 27944#27172: *52 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:43:42 [info] 27944#27172: *52 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:43:42 [info] 27944#27172: *52 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:43:47 [info] 27944#27172: *52 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:43:47 [info] 27944#27172: *52 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:43:47 [info] 27944#27172: *52 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:43:47 [info] 27944#27172: *51 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:43:47 [info] 27944#27172: *51 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:43:47 [info] 27944#27172: *51 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:43:47 [info] 27944#27172: *51 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:16 [info] 27944#27172: *53 client connected '127.0.0.1'
+2020/01/06 16:45:16 [info] 27944#27172: *53 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:16 [info] 27944#27172: *53 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:16 [info] 27944#27172: *53 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:16 [info] 27944#27172: *54 client connected '127.0.0.1'
+2020/01/06 16:45:16 [info] 27944#27172: *54 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:16 [info] 27944#27172: *54 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:16 [info] 27944#27172: *54 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:39 [info] 27944#27172: *53 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:39 [info] 27944#27172: *53 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:39 [info] 27944#27172: *53 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:39 [info] 27944#27172: *54 WSASend() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:39 [info] 27944#27172: *54 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:39 [info] 27944#27172: *54 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:58 [info] 27944#27172: *55 client connected '127.0.0.1'
+2020/01/06 16:45:58 [info] 27944#27172: *55 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:58 [info] 27944#27172: *55 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:58 [info] 27944#27172: *55 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:58 [info] 27944#27172: *56 client connected '127.0.0.1'
+2020/01/06 16:45:58 [info] 27944#27172: *56 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:58 [info] 27944#27172: *56 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:45:58 [info] 27944#27172: *56 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:48:27 [info] 27944#27172: *55 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:48:27 [info] 27944#27172: *55 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:48:27 [info] 27944#27172: *55 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:48:27 [info] 27944#27172: *56 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:48:27 [info] 27944#27172: *56 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:48:27 [info] 27944#27172: *56 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:48:48 [info] 27944#27172: *57 client connected '127.0.0.1'
+2020/01/06 16:48:48 [info] 27944#27172: *57 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:48:48 [info] 27944#27172: *57 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:48:48 [info] 27944#27172: *57 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:48:48 [info] 27944#27172: *58 client connected '127.0.0.1'
+2020/01/06 16:48:48 [info] 27944#27172: *58 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:48:48 [info] 27944#27172: *58 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:48:48 [info] 27944#27172: *58 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:49:13 [info] 27944#27172: *57 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:49:13 [info] 27944#27172: *57 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:49:13 [info] 27944#27172: *57 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:49:13 [info] 27944#27172: *58 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:49:13 [info] 27944#27172: *58 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:49:13 [info] 27944#27172: *58 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:49:26 [info] 27944#27172: *59 client connected '127.0.0.1'
+2020/01/06 16:49:26 [info] 27944#27172: *59 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:49:26 [info] 27944#27172: *59 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:49:26 [info] 27944#27172: *59 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:49:27 [info] 27944#27172: *60 client connected '127.0.0.1'
+2020/01/06 16:49:27 [info] 27944#27172: *60 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:49:27 [info] 27944#27172: *60 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:49:27 [info] 27944#27172: *60 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:49:54 [info] 27944#27172: *60 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:49:54 [info] 27944#27172: *60 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:49:54 [info] 27944#27172: *60 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:50:56 [info] 27944#27172: *59 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:50:56 [info] 27944#27172: *59 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:50:56 [info] 27944#27172: *59 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:51:18 [info] 27944#27172: *61 client connected '127.0.0.1'
+2020/01/06 16:51:18 [info] 27944#27172: *61 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:51:18 [info] 27944#27172: *61 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:51:18 [info] 27944#27172: *61 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:51:19 [info] 27944#27172: *62 client connected '127.0.0.1'
+2020/01/06 16:51:19 [info] 27944#27172: *62 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:51:19 [info] 27944#27172: *62 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:51:19 [info] 27944#27172: *62 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:51:34 [info] 27944#27172: *61 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:51:34 [info] 27944#27172: *61 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:51:34 [info] 27944#27172: *61 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:51:34 [info] 27944#27172: *62 WSASend() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:51:34 [info] 27944#27172: *62 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:51:34 [info] 27944#27172: *62 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:03 [info] 27944#27172: *63 client connected '127.0.0.1'
+2020/01/06 16:52:03 [info] 27944#27172: *63 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:03 [info] 27944#27172: *63 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:03 [info] 27944#27172: *63 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:03 [info] 27944#27172: *64 client connected '127.0.0.1'
+2020/01/06 16:52:03 [info] 27944#27172: *64 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:03 [info] 27944#27172: *64 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:03 [info] 27944#27172: *64 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:09 [info] 27944#27172: *63 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:09 [info] 27944#27172: *63 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:09 [info] 27944#27172: *63 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:32 [info] 27944#27172: *65 client connected '127.0.0.1'
+2020/01/06 16:52:32 [info] 27944#27172: *65 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:32 [info] 27944#27172: *65 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:32 [info] 27944#27172: *65 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:51 [info] 27944#27172: *65 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:51 [info] 27944#27172: *65 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:51 [info] 27944#27172: *65 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:59 [info] 27944#27172: *66 client connected '127.0.0.1'
+2020/01/06 16:52:59 [info] 27944#27172: *66 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:59 [info] 27944#27172: *66 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:52:59 [info] 27944#27172: *66 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:53:15 [info] 27944#27172: *67 client connected '192.168.0.140'
+2020/01/06 16:53:15 [info] 27944#27172: *67 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://192.168.0.140:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 16:53:15 [info] 27944#27172: *67 createStream, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 16:53:15 [info] 27944#27172: *67 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 16:54:07 [info] 27944#27172: *66 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:54:07 [info] 27944#27172: *66 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:54:07 [info] 27944#27172: *66 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:54:16 [info] 27944#27172: *64 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:54:16 [info] 27944#27172: *64 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:54:16 [info] 27944#27172: *64 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:54:16 [info] 27944#27172: *64 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:55:37 [info] 27944#27172: *67 disconnect, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 16:55:37 [info] 27944#27172: *67 deleteStream, client: 192.168.0.140, server: 0.0.0.0:8011
+2020/01/06 16:55:44 [info] 27944#27172: *68 client connected '127.0.0.1'
+2020/01/06 16:55:44 [info] 27944#27172: *68 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:55:44 [info] 27944#27172: *68 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:55:44 [info] 27944#27172: *68 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:55:44 [info] 27944#27172: *69 client connected '127.0.0.1'
+2020/01/06 16:55:44 [info] 27944#27172: *69 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:55:44 [info] 27944#27172: *69 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:55:44 [info] 27944#27172: *69 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:56:05 [info] 27944#27172: *68 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:56:05 [info] 27944#27172: *68 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 16:56:05 [info] 27944#27172: *68 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:03:17 [info] 27944#27172: *69 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:03:17 [info] 27944#27172: *69 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:03:17 [info] 27944#27172: *69 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:04:36 [info] 27944#27172: *70 client connected '127.0.0.1'
+2020/01/06 17:04:36 [info] 27944#27172: *70 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:04:36 [info] 27944#27172: *70 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:04:36 [info] 27944#27172: *70 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:04:36 [info] 27944#27172: *71 client connected '127.0.0.1'
+2020/01/06 17:04:36 [info] 27944#27172: *71 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:04:36 [info] 27944#27172: *71 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:04:36 [info] 27944#27172: *71 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:05:44 [info] 27944#27172: *71 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:05:44 [info] 27944#27172: *71 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:05:44 [info] 27944#27172: *71 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:06:32 [info] 27944#27172: *72 client connected '127.0.0.1'
+2020/01/06 17:06:32 [info] 27944#27172: *72 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:06:32 [info] 27944#27172: *72 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:06:32 [info] 27944#27172: *72 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:07:11 [info] 27944#27172: *70 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:07:11 [info] 27944#27172: *70 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:07:11 [info] 27944#27172: *70 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:07:11 [info] 27944#27172: *72 WSASend() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:07:11 [info] 27944#27172: *72 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:07:11 [info] 27944#27172: *72 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:07:24 [info] 27944#27172: *73 client connected '127.0.0.1'
+2020/01/06 17:07:24 [info] 27944#27172: *73 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:07:24 [info] 27944#27172: *73 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:07:24 [info] 27944#27172: *73 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:07:24 [info] 27944#27172: *74 client connected '127.0.0.1'
+2020/01/06 17:07:24 [info] 27944#27172: *74 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:07:24 [info] 27944#27172: *74 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:07:24 [info] 27944#27172: *74 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:08:02 [info] 27944#27172: *74 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:08:02 [info] 27944#27172: *74 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:08:02 [info] 27944#27172: *74 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:08:16 [info] 27944#27172: *75 client connected '127.0.0.1'
+2020/01/06 17:08:16 [info] 27944#27172: *75 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:08:16 [info] 27944#27172: *75 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:08:16 [info] 27944#27172: *75 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:08:42 [info] 27944#27172: *73 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:08:42 [info] 27944#27172: *73 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:08:42 [info] 27944#27172: *75 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:08:42 [info] 27944#27172: *75 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:08:42 [info] 27944#27172: *75 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:09:27 [info] 27944#27172: *76 client connected '127.0.0.1'
+2020/01/06 17:09:27 [info] 27944#27172: *76 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:09:27 [info] 27944#27172: *76 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:09:27 [info] 27944#27172: *76 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:09:27 [info] 27944#27172: *77 client connected '127.0.0.1'
+2020/01/06 17:09:27 [info] 27944#27172: *77 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:09:27 [info] 27944#27172: *77 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:09:27 [info] 27944#27172: *77 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:10:10 [info] 27944#27172: *76 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:10:10 [info] 27944#27172: *76 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:10:10 [info] 27944#27172: *76 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:10:10 [info] 27944#27172: *76 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:10:10 [info] 27944#27172: *77 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:10:10 [info] 27944#27172: *77 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:10:10 [info] 27944#27172: *77 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:10:10 [info] 27944#27172: *77 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:15:22 [info] 27944#27172: *78 client connected '127.0.0.1'
+2020/01/06 17:15:22 [info] 27944#27172: *78 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:15:22 [info] 27944#27172: *78 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:15:22 [info] 27944#27172: *78 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:15:22 [info] 27944#27172: *79 client connected '127.0.0.1'
+2020/01/06 17:15:23 [info] 27944#27172: *79 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:15:23 [info] 27944#27172: *79 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:15:23 [info] 27944#27172: *79 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:15:28 [info] 27944#27172: *80 client connected '127.0.0.1'
+2020/01/06 17:15:28 [info] 27944#27172: *80 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:15:28 [info] 27944#27172: *80 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:15:28 [info] 27944#27172: *80 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:15:29 [info] 27944#27172: *79 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:15:29 [info] 27944#27172: *79 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:15:29 [info] 27944#27172: *79 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:15:29 [info] 27944#27172: *79 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:05 [info] 27944#27172: *78 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:05 [info] 27944#27172: *78 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:05 [info] 27944#27172: *80 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:05 [info] 27944#27172: *80 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:05 [info] 27944#27172: *80 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:18 [info] 27944#27172: *81 client connected '127.0.0.1'
+2020/01/06 17:16:18 [info] 27944#27172: *81 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:18 [info] 27944#27172: *81 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:18 [info] 27944#27172: *81 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:18 [info] 27944#27172: *82 client connected '127.0.0.1'
+2020/01/06 17:16:18 [info] 27944#27172: *82 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:18 [info] 27944#27172: *82 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:18 [info] 27944#27172: *82 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:26 [info] 27944#27172: *83 client connected '127.0.0.1'
+2020/01/06 17:16:26 [info] 27944#27172: *83 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:26 [info] 27944#27172: *83 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:26 [info] 27944#27172: *83 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:26 [info] 27944#27172: *82 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:26 [info] 27944#27172: *82 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:26 [info] 27944#27172: *82 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:26 [info] 27944#27172: *82 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:26 [info] 27944#27172: *83 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:26 [info] 27944#27172: *83 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:26 [info] 27944#27172: *83 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:29 [info] 27944#27172: *84 client connected '127.0.0.1'
+2020/01/06 17:16:29 [info] 27944#27172: *84 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:29 [info] 27944#27172: *84 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:29 [info] 27944#27172: *84 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:30 [info] 27944#27172: *81 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:30 [info] 27944#27172: *81 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:30 [info] 27944#27172: *81 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:31 [info] 27944#27172: *84 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:31 [info] 27944#27172: *84 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:16:31 [info] 27944#27172: *84 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:17:06 [info] 27944#27172: *85 client connected '127.0.0.1'
+2020/01/06 17:17:06 [info] 27944#27172: *85 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:17:06 [info] 27944#27172: *85 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:17:06 [info] 27944#27172: *85 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:17:54 [info] 27944#27172: *85 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:17:54 [info] 27944#27172: *85 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:17:54 [info] 27944#27172: *85 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:18:33 [info] 27944#27172: *86 client connected '127.0.0.1'
+2020/01/06 17:18:33 [info] 27944#27172: *86 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:18:33 [info] 27944#27172: *86 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:18:33 [info] 27944#27172: *86 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:18:55 [info] 27944#27172: *86 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:18:55 [info] 27944#27172: *86 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:19:52 [info] 27944#27172: *87 client connected '127.0.0.1'
+2020/01/06 17:19:52 [info] 27944#27172: *87 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:19:52 [info] 27944#27172: *87 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:19:52 [info] 27944#27172: *87 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:19:53 [info] 27944#27172: *88 client connected '127.0.0.1'
+2020/01/06 17:19:53 [info] 27944#27172: *88 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:19:53 [info] 27944#27172: *88 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:19:53 [info] 27944#27172: *88 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:20:17 [info] 27944#27172: *88 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:20:17 [info] 27944#27172: *88 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:20:17 [info] 27944#27172: *88 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:20:17 [info] 27944#27172: *88 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:20:33 [info] 27944#27172: *87 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:20:33 [info] 27944#27172: *87 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:20:33 [info] 27944#27172: *87 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:23:11 [info] 27944#27172: *89 client connected '127.0.0.1'
+2020/01/06 17:23:11 [info] 27944#27172: *89 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:23:11 [info] 27944#27172: *89 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:23:11 [info] 27944#27172: *89 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:23:11 [info] 27944#27172: *90 client connected '127.0.0.1'
+2020/01/06 17:23:11 [info] 27944#27172: *90 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:23:11 [info] 27944#27172: *90 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:23:11 [info] 27944#27172: *90 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:23:28 [info] 27944#27172: *89 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:23:28 [info] 27944#27172: *89 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:23:28 [info] 27944#27172: *90 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:23:28 [info] 27944#27172: *90 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:23:28 [info] 27944#27172: *90 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:23:28 [info] 27944#27172: *90 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:34:31 [info] 27944#27172: *91 client connected '127.0.0.1'
+2020/01/06 17:34:31 [info] 27944#27172: *91 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:34:31 [info] 27944#27172: *91 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:34:31 [info] 27944#27172: *91 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:34:31 [info] 27944#27172: *92 client connected '127.0.0.1'
+2020/01/06 17:34:31 [info] 27944#27172: *92 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:34:31 [info] 27944#27172: *92 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:34:31 [info] 27944#27172: *92 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:34:59 [info] 27944#27172: *91 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:34:59 [info] 27944#27172: *91 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:34:59 [info] 27944#27172: *91 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:34:59 [info] 27944#27172: *92 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:34:59 [info] 27944#27172: *92 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:34:59 [info] 27944#27172: *92 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:34:59 [info] 27944#27172: *92 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:36:53 [info] 27944#27172: *93 client connected '127.0.0.1'
+2020/01/06 17:36:53 [info] 27944#27172: *93 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:36:53 [info] 27944#27172: *93 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:36:53 [info] 27944#27172: *93 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:36:53 [info] 27944#27172: *94 client connected '127.0.0.1'
+2020/01/06 17:36:53 [info] 27944#27172: *94 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:36:53 [info] 27944#27172: *94 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:36:53 [info] 27944#27172: *94 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:37:17 [info] 27944#27172: *94 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:37:17 [info] 27944#27172: *94 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:37:17 [info] 27944#27172: *94 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:37:17 [info] 27944#27172: *93 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:37:17 [info] 27944#27172: *93 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:37:17 [info] 27944#27172: *93 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:37:17 [info] 27944#27172: *93 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:38:44 [info] 27944#27172: *95 client connected '127.0.0.1'
+2020/01/06 17:38:44 [info] 27944#27172: *95 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:38:44 [info] 27944#27172: *95 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:38:44 [info] 27944#27172: *95 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:38:45 [info] 27944#27172: *96 client connected '127.0.0.1'
+2020/01/06 17:38:45 [info] 27944#27172: *96 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:38:45 [info] 27944#27172: *96 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:38:45 [info] 27944#27172: *96 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:39:15 [info] 27944#27172: *96 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:39:15 [info] 27944#27172: *96 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:39:20 [info] 27944#27172: *95 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:39:20 [info] 27944#27172: *95 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:39:20 [info] 27944#27172: *95 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:39:20 [info] 27944#27172: *95 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:41:33 [info] 27944#27172: *97 client connected '127.0.0.1'
+2020/01/06 17:41:33 [info] 27944#27172: *97 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:41:33 [info] 27944#27172: *97 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:41:33 [info] 27944#27172: *97 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:41:33 [info] 27944#27172: *98 client connected '127.0.0.1'
+2020/01/06 17:41:33 [info] 27944#27172: *98 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:41:33 [info] 27944#27172: *98 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:41:33 [info] 27944#27172: *98 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:41:46 [info] 27944#27172: *97 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:41:46 [info] 27944#27172: *97 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:41:46 [info] 27944#27172: *97 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:41:54 [info] 27944#27172: *98 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:41:54 [info] 27944#27172: *98 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:41:54 [info] 27944#27172: *98 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:41:54 [info] 27944#27172: *98 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:47:08 [info] 27944#27172: *99 client connected '127.0.0.1'
+2020/01/06 17:47:08 [info] 27944#27172: *99 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:47:08 [info] 27944#27172: *99 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:47:08 [info] 27944#27172: *99 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:47:09 [info] 27944#27172: *100 client connected '127.0.0.1'
+2020/01/06 17:47:09 [info] 27944#27172: *100 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:47:09 [info] 27944#27172: *100 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:47:09 [info] 27944#27172: *100 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:47:51 [info] 27944#27172: *99 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:47:51 [info] 27944#27172: *99 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:47:51 [info] 27944#27172: *99 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:47:51 [info] 27944#27172: *100 WSASend() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:47:51 [info] 27944#27172: *100 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:47:51 [info] 27944#27172: *100 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:48:02 [info] 27944#27172: *101 client connected '127.0.0.1'
+2020/01/06 17:48:02 [info] 27944#27172: *101 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:48:02 [info] 27944#27172: *101 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:48:02 [info] 27944#27172: *101 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:48:02 [info] 27944#27172: *102 client connected '127.0.0.1'
+2020/01/06 17:48:02 [info] 27944#27172: *102 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:48:02 [info] 27944#27172: *102 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:48:02 [info] 27944#27172: *102 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:48:12 [info] 27944#27172: *102 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:48:12 [info] 27944#27172: *102 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:48:12 [info] 27944#27172: *102 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:48:15 [info] 27944#27172: *101 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:48:15 [info] 27944#27172: *101 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:48:15 [info] 27944#27172: *101 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:48:15 [info] 27944#27172: *101 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:49:38 [info] 27944#27172: *103 client connected '127.0.0.1'
+2020/01/06 17:49:38 [info] 27944#27172: *103 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:49:38 [info] 27944#27172: *103 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:49:38 [info] 27944#27172: *103 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:49:38 [info] 27944#27172: *104 client connected '127.0.0.1'
+2020/01/06 17:49:38 [info] 27944#27172: *104 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:49:38 [info] 27944#27172: *104 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:49:38 [info] 27944#27172: *104 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:50:08 [info] 27944#27172: *104 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:50:08 [info] 27944#27172: *104 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:50:08 [info] 27944#27172: *103 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:50:08 [info] 27944#27172: *103 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:50:08 [info] 27944#27172: *103 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:51:47 [info] 27944#27172: *105 client connected '127.0.0.1'
+2020/01/06 17:51:47 [info] 27944#27172: *105 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:51:47 [info] 27944#27172: *105 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:51:47 [info] 27944#27172: *105 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:51:47 [info] 27944#27172: *106 client connected '127.0.0.1'
+2020/01/06 17:51:47 [info] 27944#27172: *106 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:51:47 [info] 27944#27172: *106 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:51:47 [info] 27944#27172: *106 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:52:01 [info] 27944#27172: *106 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:52:01 [info] 27944#27172: *106 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:52:01 [info] 27944#27172: *106 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:52:01 [info] 27944#27172: *105 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:52:01 [info] 27944#27172: *105 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:52:01 [info] 27944#27172: *105 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:52:01 [info] 27944#27172: *105 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:52:31 [info] 27944#27172: *107 client connected '127.0.0.1'
+2020/01/06 17:52:31 [info] 27944#27172: *107 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:52:31 [info] 27944#27172: *107 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:52:31 [info] 27944#27172: *107 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:52:32 [info] 27944#27172: *108 client connected '127.0.0.1'
+2020/01/06 17:52:32 [info] 27944#27172: *108 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:52:32 [info] 27944#27172: *108 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:52:32 [info] 27944#27172: *108 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:53:05 [info] 27944#27172: *108 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:53:05 [info] 27944#27172: *108 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:53:05 [info] 27944#27172: *108 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:53:05 [info] 27944#27172: *107 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:53:05 [info] 27944#27172: *107 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:53:05 [info] 27944#27172: *107 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:53:05 [info] 27944#27172: *107 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:55:35 [info] 27944#27172: *109 client connected '127.0.0.1'
+2020/01/06 17:55:35 [info] 27944#27172: *109 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:55:35 [info] 27944#27172: *109 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:55:35 [info] 27944#27172: *109 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:55:35 [info] 27944#27172: *110 client connected '127.0.0.1'
+2020/01/06 17:55:35 [info] 27944#27172: *110 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:55:35 [info] 27944#27172: *110 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:55:35 [info] 27944#27172: *110 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:55:50 [info] 27944#27172: *109 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:55:50 [info] 27944#27172: *109 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:55:50 [info] 27944#27172: *109 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:55:51 [info] 27944#27172: *110 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:55:51 [info] 27944#27172: *110 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:55:51 [info] 27944#27172: *110 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:55:51 [info] 27944#27172: *110 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:57:53 [info] 27944#27172: *111 client connected '127.0.0.1'
+2020/01/06 17:57:53 [info] 27944#27172: *111 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:57:53 [info] 27944#27172: *111 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:57:53 [info] 27944#27172: *111 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:57:53 [info] 27944#27172: *112 client connected '127.0.0.1'
+2020/01/06 17:57:53 [info] 27944#27172: *112 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:57:53 [info] 27944#27172: *112 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:57:53 [info] 27944#27172: *112 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:58:12 [info] 27944#27172: *111 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:58:12 [info] 27944#27172: *111 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:58:12 [info] 27944#27172: *111 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:58:15 [info] 27944#27172: *112 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:58:15 [info] 27944#27172: *112 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:58:15 [info] 27944#27172: *112 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:58:15 [info] 27944#27172: *112 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:58:48 [info] 27944#27172: *113 client connected '127.0.0.1'
+2020/01/06 17:58:48 [info] 27944#27172: *113 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:58:48 [info] 27944#27172: *113 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:58:48 [info] 27944#27172: *113 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:58:48 [info] 27944#27172: *114 client connected '127.0.0.1'
+2020/01/06 17:58:48 [info] 27944#27172: *114 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:58:48 [info] 27944#27172: *114 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:58:48 [info] 27944#27172: *114 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:00 [info] 27944#27172: *114 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:00 [info] 27944#27172: *114 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:00 [info] 27944#27172: *114 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:01 [info] 27944#27172: *113 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:01 [info] 27944#27172: *113 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:01 [info] 27944#27172: *113 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:01 [info] 27944#27172: *113 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:34 [info] 27944#27172: *115 client connected '127.0.0.1'
+2020/01/06 17:59:34 [info] 27944#27172: *115 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:34 [info] 27944#27172: *115 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:34 [info] 27944#27172: *115 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:34 [info] 27944#27172: *116 client connected '127.0.0.1'
+2020/01/06 17:59:34 [info] 27944#27172: *116 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:34 [info] 27944#27172: *116 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:34 [info] 27944#27172: *116 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:41 [info] 27944#27172: *115 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:41 [info] 27944#27172: *115 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:41 [info] 27944#27172: *115 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:41 [info] 27944#27172: *116 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:41 [info] 27944#27172: *116 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:41 [info] 27944#27172: *116 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 17:59:41 [info] 27944#27172: *116 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:22 [info] 27944#27172: *117 client connected '127.0.0.1'
+2020/01/06 18:10:22 [info] 27944#27172: *117 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:22 [info] 27944#27172: *117 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:22 [info] 27944#27172: *117 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:22 [info] 27944#27172: *118 client connected '127.0.0.1'
+2020/01/06 18:10:22 [info] 27944#27172: *118 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:22 [info] 27944#27172: *118 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:22 [info] 27944#27172: *118 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:32 [info] 27944#27172: *118 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:32 [info] 27944#27172: *118 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:32 [info] 27944#27172: *118 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:32 [info] 27944#27172: *117 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:32 [info] 27944#27172: *117 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:32 [info] 27944#27172: *117 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:32 [info] 27944#27172: *117 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:57 [info] 27944#27172: *119 client connected '127.0.0.1'
+2020/01/06 18:10:57 [info] 27944#27172: *119 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:57 [info] 27944#27172: *119 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:57 [info] 27944#27172: *119 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:57 [info] 27944#27172: *120 client connected '127.0.0.1'
+2020/01/06 18:10:57 [info] 27944#27172: *120 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:57 [info] 27944#27172: *120 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:10:57 [info] 27944#27172: *120 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:11:07 [info] 27944#27172: *119 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:11:07 [info] 27944#27172: *119 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:11:07 [info] 27944#27172: *119 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:11:36 [info] 27944#27172: *120 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:11:36 [info] 27944#27172: *120 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:13:39 [info] 27944#27172: *121 client connected '127.0.0.1'
+2020/01/06 18:13:39 [info] 27944#27172: *121 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:13:39 [info] 27944#27172: *121 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:13:39 [info] 27944#27172: *121 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:13:40 [info] 27944#27172: *122 client connected '127.0.0.1'
+2020/01/06 18:13:40 [info] 27944#27172: *122 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:13:40 [info] 27944#27172: *122 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:13:40 [info] 27944#27172: *122 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:13:59 [info] 27944#27172: *122 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:13:59 [info] 27944#27172: *122 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:13:59 [info] 27944#27172: *122 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:14:26 [info] 27944#27172: *121 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:14:26 [info] 27944#27172: *121 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:14:26 [info] 27944#27172: *121 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:19:21 [info] 27944#27172: *123 client connected '127.0.0.1'
+2020/01/06 18:19:21 [info] 27944#27172: *123 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:19:21 [info] 27944#27172: *123 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:19:21 [info] 27944#27172: *123 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:19:21 [info] 27944#27172: *124 client connected '127.0.0.1'
+2020/01/06 18:19:21 [info] 27944#27172: *124 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:19:21 [info] 27944#27172: *124 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:19:21 [info] 27944#27172: *124 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:19:29 [info] 27944#27172: *123 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:19:29 [info] 27944#27172: *123 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:19:29 [info] 27944#27172: *123 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:20:14 [info] 27944#27172: *124 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:20:14 [info] 27944#27172: *124 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:23:04 [info] 27944#27172: *125 client connected '127.0.0.1'
+2020/01/06 18:23:04 [info] 27944#27172: *125 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:23:04 [info] 27944#27172: *125 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:23:04 [info] 27944#27172: *125 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:23:04 [info] 27944#27172: *126 client connected '127.0.0.1'
+2020/01/06 18:23:04 [info] 27944#27172: *126 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:23:04 [info] 27944#27172: *126 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:23:04 [info] 27944#27172: *126 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:23:18 [info] 27944#27172: *126 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:23:18 [info] 27944#27172: *126 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:23:18 [info] 27944#27172: *126 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:25:03 [info] 27944#27172: *125 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:25:03 [info] 27944#27172: *125 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:25:03 [info] 27944#27172: *125 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:27:20 [info] 27944#27172: *127 client connected '127.0.0.1'
+2020/01/06 18:27:20 [info] 27944#27172: *127 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:27:20 [info] 27944#27172: *127 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:27:20 [info] 27944#27172: *127 play: name='oeiplive1_5_0' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:27:20 [info] 27944#27172: *128 client connected '127.0.0.1'
+2020/01/06 18:27:20 [info] 27944#27172: *128 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.20' swf_url='' tc_url='rtmp://localhost:8011/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:27:20 [info] 27944#27172: *128 createStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:27:20 [info] 27944#27172: *128 publish: name='oeiplive1_5_0' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:27:29 [info] 27944#27172: *127 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:27:29 [info] 27944#27172: *127 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:27:37 [info] 27944#27172: *128 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:27:37 [info] 27944#27172: *128 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:27:37 [info] 27944#27172: *128 disconnect, client: 127.0.0.1, server: 0.0.0.0:8011
+2020/01/06 18:27:37 [info] 27944#27172: *128 deleteStream, client: 127.0.0.1, server: 0.0.0.0:8011
